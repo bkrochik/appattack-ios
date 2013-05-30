@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAA260317570C3000D86976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA260217570C3000D86976 /* UIKit.framework */; };
+		7FAA260517570C3000D86976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA260417570C3000D86976 /* Foundation.framework */; };
+		7FAA260717570C3000D86976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA260617570C3000D86976 /* CoreGraphics.framework */; };
+		7FAA260D17570C3000D86976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA260B17570C3000D86976 /* InfoPlist.strings */; };
+		7FAA260F17570C3000D86976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA260E17570C3000D86976 /* main.m */; };
+		7FAA261317570C3000D86976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA261217570C3000D86976 /* AppDelegate.m */; };
+		7FAA261517570C3000D86976 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA261417570C3000D86976 /* Default.png */; };
+		7FAA261717570C3000D86976 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA261617570C3000D86976 /* Default@2x.png */; };
+		7FAA261917570C3000D86976 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA261817570C3000D86976 /* Default-568h@2x.png */; };
+		7FAA261C17570C3000D86976 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA261A17570C3000D86976 /* MainStoryboard_iPhone.storyboard */; };
+		7FAA261F17570C3000D86976 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA261D17570C3000D86976 /* MainStoryboard_iPad.storyboard */; };
+		7FAA262217570C3000D86976 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA262117570C3000D86976 /* ViewController.m */; };
+		7FAA262A17570C3100D86976 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA262917570C3100D86976 /* SenTestingKit.framework */; };
+		7FAA262B17570C3100D86976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA260217570C3000D86976 /* UIKit.framework */; };
+		7FAA262C17570C3100D86976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA260417570C3000D86976 /* Foundation.framework */; };
+		7FAA263417570C3100D86976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA263217570C3100D86976 /* InfoPlist.strings */; };
+		7FAA263717570C3100D86976 /* MercadoCostosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA263617570C3100D86976 /* MercadoCostosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAA262D17570C3100D86976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAA25F717570C3000D86976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAA25FE17570C3000D86976;
+			remoteInfo = MercadoCostos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FAA25FF17570C3000D86976 /* MercadoCostos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercadoCostos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAA260217570C3000D86976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FAA260417570C3000D86976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FAA260617570C3000D86976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FAA260A17570C3000D86976 /* MercadoCostos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MercadoCostos-Info.plist"; sourceTree = "<group>"; };
+		7FAA260C17570C3000D86976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FAA260E17570C3000D86976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FAA261017570C3000D86976 /* MercadoCostos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MercadoCostos-Prefix.pch"; sourceTree = "<group>"; };
+		7FAA261117570C3000D86976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FAA261217570C3000D86976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FAA261417570C3000D86976 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7FAA261617570C3000D86976 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7FAA261817570C3000D86976 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7FAA261B17570C3000D86976 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7FAA261E17570C3000D86976 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7FAA262017570C3000D86976 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FAA262117570C3000D86976 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FAA262817570C3100D86976 /* MercadoCostosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoCostosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAA262917570C3100D86976 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FAA263117570C3100D86976 /* MercadoCostosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MercadoCostosTests-Info.plist"; sourceTree = "<group>"; };
+		7FAA263317570C3100D86976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FAA263517570C3100D86976 /* MercadoCostosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MercadoCostosTests.h; sourceTree = "<group>"; };
+		7FAA263617570C3100D86976 /* MercadoCostosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MercadoCostosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAA25FC17570C3000D86976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA260317570C3000D86976 /* UIKit.framework in Frameworks */,
+				7FAA260517570C3000D86976 /* Foundation.framework in Frameworks */,
+				7FAA260717570C3000D86976 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAA262417570C3100D86976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA262A17570C3100D86976 /* SenTestingKit.framework in Frameworks */,
+				7FAA262B17570C3100D86976 /* UIKit.framework in Frameworks */,
+				7FAA262C17570C3100D86976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAA25F617570C2F00D86976 = {
+			isa = PBXGroup;
+			children = (
+				7FAA260817570C3000D86976 /* MercadoCostos */,
+				7FAA262F17570C3100D86976 /* MercadoCostosTests */,
+				7FAA260117570C3000D86976 /* Frameworks */,
+				7FAA260017570C3000D86976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAA260017570C3000D86976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA25FF17570C3000D86976 /* MercadoCostos.app */,
+				7FAA262817570C3100D86976 /* MercadoCostosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAA260117570C3000D86976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA260217570C3000D86976 /* UIKit.framework */,
+				7FAA260417570C3000D86976 /* Foundation.framework */,
+				7FAA260617570C3000D86976 /* CoreGraphics.framework */,
+				7FAA262917570C3100D86976 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FAA260817570C3000D86976 /* MercadoCostos */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA261117570C3000D86976 /* AppDelegate.h */,
+				7FAA261217570C3000D86976 /* AppDelegate.m */,
+				7FAA261A17570C3000D86976 /* MainStoryboard_iPhone.storyboard */,
+				7FAA261D17570C3000D86976 /* MainStoryboard_iPad.storyboard */,
+				7FAA262017570C3000D86976 /* ViewController.h */,
+				7FAA262117570C3000D86976 /* ViewController.m */,
+				7FAA260917570C3000D86976 /* Supporting Files */,
+			);
+			path = MercadoCostos;
+			sourceTree = "<group>";
+		};
+		7FAA260917570C3000D86976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA260A17570C3000D86976 /* MercadoCostos-Info.plist */,
+				7FAA260B17570C3000D86976 /* InfoPlist.strings */,
+				7FAA260E17570C3000D86976 /* main.m */,
+				7FAA261017570C3000D86976 /* MercadoCostos-Prefix.pch */,
+				7FAA261417570C3000D86976 /* Default.png */,
+				7FAA261617570C3000D86976 /* Default@2x.png */,
+				7FAA261817570C3000D86976 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FAA262F17570C3100D86976 /* MercadoCostosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA263517570C3100D86976 /* MercadoCostosTests.h */,
+				7FAA263617570C3100D86976 /* MercadoCostosTests.m */,
+				7FAA263017570C3100D86976 /* Supporting Files */,
+			);
+			path = MercadoCostosTests;
+			sourceTree = "<group>";
+		};
+		7FAA263017570C3100D86976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA263117570C3100D86976 /* MercadoCostosTests-Info.plist */,
+				7FAA263217570C3100D86976 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAA25FE17570C3000D86976 /* MercadoCostos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAA263A17570C3100D86976 /* Build configuration list for PBXNativeTarget "MercadoCostos" */;
+			buildPhases = (
+				7FAA25FB17570C3000D86976 /* Sources */,
+				7FAA25FC17570C3000D86976 /* Frameworks */,
+				7FAA25FD17570C3000D86976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MercadoCostos;
+			productName = MercadoCostos;
+			productReference = 7FAA25FF17570C3000D86976 /* MercadoCostos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAA262717570C3100D86976 /* MercadoCostosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAA263D17570C3100D86976 /* Build configuration list for PBXNativeTarget "MercadoCostosTests" */;
+			buildPhases = (
+				7FAA262317570C3100D86976 /* Sources */,
+				7FAA262417570C3100D86976 /* Frameworks */,
+				7FAA262517570C3100D86976 /* Resources */,
+				7FAA262617570C3100D86976 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAA262E17570C3100D86976 /* PBXTargetDependency */,
+			);
+			name = MercadoCostosTests;
+			productName = MercadoCostosTests;
+			productReference = 7FAA262817570C3100D86976 /* MercadoCostosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAA25F717570C3000D86976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brian Krochik";
+			};
+			buildConfigurationList = 7FAA25FA17570C3000D86976 /* Build configuration list for PBXProject "MercadoCostos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FAA25F617570C2F00D86976;
+			productRefGroup = 7FAA260017570C3000D86976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAA25FE17570C3000D86976 /* MercadoCostos */,
+				7FAA262717570C3100D86976 /* MercadoCostosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAA25FD17570C3000D86976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA260D17570C3000D86976 /* InfoPlist.strings in Resources */,
+				7FAA261517570C3000D86976 /* Default.png in Resources */,
+				7FAA261717570C3000D86976 /* Default@2x.png in Resources */,
+				7FAA261917570C3000D86976 /* Default-568h@2x.png in Resources */,
+				7FAA261C17570C3000D86976 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7FAA261F17570C3000D86976 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAA262517570C3100D86976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA263417570C3100D86976 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FAA262617570C3100D86976 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAA25FB17570C3000D86976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA260F17570C3000D86976 /* main.m in Sources */,
+				7FAA261317570C3000D86976 /* AppDelegate.m in Sources */,
+				7FAA262217570C3000D86976 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAA262317570C3100D86976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA263717570C3100D86976 /* MercadoCostosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAA262E17570C3100D86976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAA25FE17570C3000D86976 /* MercadoCostos */;
+			targetProxy = 7FAA262D17570C3100D86976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAA260B17570C3000D86976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAA260C17570C3000D86976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FAA261A17570C3000D86976 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAA261B17570C3000D86976 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7FAA261D17570C3000D86976 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAA261E17570C3000D86976 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7FAA263217570C3100D86976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAA263317570C3100D86976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAA263817570C3100D86976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FAA263917570C3100D86976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAA263B17570C3100D86976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MercadoCostos/MercadoCostos-Prefix.pch";
+				INFOPLIST_FILE = "MercadoCostos/MercadoCostos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FAA263C17570C3100D86976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MercadoCostos/MercadoCostos-Prefix.pch";
+				INFOPLIST_FILE = "MercadoCostos/MercadoCostos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FAA263E17570C3100D86976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MercadoCostos.app/MercadoCostos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MercadoCostos/MercadoCostos-Prefix.pch";
+				INFOPLIST_FILE = "MercadoCostosTests/MercadoCostosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7FAA263F17570C3100D86976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MercadoCostos.app/MercadoCostos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MercadoCostos/MercadoCostos-Prefix.pch";
+				INFOPLIST_FILE = "MercadoCostosTests/MercadoCostosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAA25FA17570C3000D86976 /* Build configuration list for PBXProject "MercadoCostos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAA263817570C3100D86976 /* Debug */,
+				7FAA263917570C3100D86976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAA263A17570C3100D86976 /* Build configuration list for PBXNativeTarget "MercadoCostos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAA263B17570C3100D86976 /* Debug */,
+				7FAA263C17570C3100D86976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FAA263D17570C3100D86976 /* Build configuration list for PBXNativeTarget "MercadoCostosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAA263E17570C3100D86976 /* Debug */,
+				7FAA263F17570C3100D86976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAA25F717570C3000D86976 /* Project object */;
+}
